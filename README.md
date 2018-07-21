@@ -24,8 +24,6 @@ $ franklin -t=aapl -d
 ```
 $ go get github.com/michaelnyu/franklin
 ```
-- cd franklin
-- go install
 - run ```franklin``` to your hearts content
 
 ## Setting GO Path

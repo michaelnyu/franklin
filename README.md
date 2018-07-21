@@ -26,7 +26,7 @@ $ go get github.com/michaelnyu/franklin
 ```
 - run ```franklin``` to your hearts content
 
-## Setting GO Path
+## Setting GOPATH
 ```shell
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go;

@@ -1,5 +1,5 @@
 # franklin
-Real-time stock data and more from your command line
+Real-time stock data and more from your command line 💵
 
 ## Function
 1. Fetches current price of Equity Security (Stocks)
@@ -7,16 +7,16 @@ Real-time stock data and more from your command line
 
 ## Usage
 1. Price only
-    ```shell
-    $ franklin --ticker=aapl
-    $ franklin -t=aapl
-    ```
+```shell
+$ franklin --ticker=aapl
+$ franklin -t=aapl
+```
 
 2. Selected details
-    ```shell
-    $ franklin --ticker=aapl --details
-    $ franklin -t=aapl -d
-    ```
+```shell
+$ franklin --ticker=aapl --details
+$ franklin -t=aapl -d
+```
 
 ## Setup
 - ensure working go environment

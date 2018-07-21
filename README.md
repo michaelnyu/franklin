@@ -7,21 +7,27 @@ Real-time stock data and more from your command line
 
 ## Usage
 1. Price only
-    ```$ franklin --ticker=aapl```
-    ```$ franklin -t=aapl```
+    ```shell
+    franklin --ticker=aapl
+    franklin -t=aapl
+    ```
 
 2. Selected details
-    ```$ franklin --ticker=aapl --details```
-    ```$ franklin -t=aapl -d```
+    ```
+    franklin --ticker=aapl --details
+    franklin -t=aapl -d
+    ```
 
 ## Setup
 - ensure working go environment
 - clone repository
 - cd franklin
 - go install
-- run ```$ franklin``` to your hearts content
+- run ```franklin``` to your hearts content
 
 ## Setting GO Path
-```$ export PATH=$PATH:/usr/local/go/bin```
-```$ export GOPATH=$HOME/go;```
-```$ export PATH=$PATH:$GOPATH/bin;```
+```shell
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go;
+export PATH=$PATH:$GOPATH/bin;
+```

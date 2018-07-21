@@ -8,19 +8,22 @@ Real-time stock data and more from your command line
 ## Usage
 1. Price only
     ```shell
-    franklin --ticker=aapl
-    franklin -t=aapl
+    $ franklin --ticker=aapl
+    $ franklin -t=aapl
     ```
 
 2. Selected details
-    ```
-    franklin --ticker=aapl --details
-    franklin -t=aapl -d
+    ```shell
+    $ franklin --ticker=aapl --details
+    $ franklin -t=aapl -d
     ```
 
 ## Setup
 - ensure working go environment
-- clone repository
+- install with:
+```
+$ go get github.com/michaelnyu/franklin
+```
 - cd franklin
 - go install
 - run ```franklin``` to your hearts content

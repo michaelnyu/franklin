@@ -25,10 +25,3 @@ $ franklin -t=aapl -d
 $ go get github.com/michaelnyu/franklin
 ```
 - run ```franklin``` to your hearts content
-
-## Setting GOPATH
-```shell
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/go;
-export PATH=$PATH:$GOPATH/bin;
-```

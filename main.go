@@ -19,6 +19,7 @@ var (
 	detail bool
 )
 
+// function that fetches the current price of the ticker
 func fetchPrice(ticker string) (string, error) {
 	url := fmt.Sprintf("%s/stock/%s/price", apibase, ticker)
 
@@ -36,6 +37,7 @@ func fetchPrice(ticker string) (string, error) {
 	return string(body), nil
 }
 
+// fetches the detailed stats on a ticker
 func fetchDetails(ticker string) (map[string]interface{}, error) {
 	url := fmt.Sprintf("%s/stock/%s/stats", apibase, ticker)
 	var data map[string]interface{}
@@ -60,6 +62,7 @@ func fetchDetails(ticker string) (map[string]interface{}, error) {
 	return data, nil
 }
 
+// filters selected parts from the fetchDetails response
 func parseDetails(data map[string]interface{}) (string, error) {
 	var res string
 
